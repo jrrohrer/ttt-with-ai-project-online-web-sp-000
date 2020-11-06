@@ -1,6 +1,7 @@
 module Players
   class Computer < Player
     def move(board)
+      puts "Computer's move:"
       if board.cells[4] == " "
         "5"
       elsif board.cells[0] == " "
